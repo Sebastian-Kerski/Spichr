@@ -1,0 +1,105 @@
+/* Localizable.strings (Korean) Spichr */
+
+"settings" = "설정";
+"statistics" = "통계";
+"manage_household" = "가정 관리";
+"share_with_family" = "가족과 공유";
+"household_is_shared" = "가정 공유됨";
+"household_is_private" = "개인 가정";
+"invite_more_people" = "더 많은 사람 초대";
+"stop_sharing" = "공유 중지";
+"privacy_policy" = "개인정보 처리방침";
+"help_support" = "도움말 및 지원";
+"support_spichr" = "Spichr 지원";
+"buy_coffee" = "커피 사주기 ☕";
+"empty_stock_message" = "첫 번째 항목 추가";
+"empty_shopping_message" = "구매할 항목 추가";
+"all_locations" = "모든 위치";
+"basic_information" = "기본 정보";
+
+// MARK: - Add Flow (Korean)
+"scan_barcode" = "바코드 스캔";
+"add_manually" = "수동 추가";
+"quick_add" = "빠른 추가";
+"loading_product_info" = "정보 로딩 중...";
+"product_found" = "제품을 찾았습니다";
+"product_not_found_title" = "제품을 찾을 수 없음";
+"product_not_found_message" = "이 제품을 찾을 수 없습니다. 다시 스캔하거나 수동으로 입력하세요.";
+"scan_again" = "다시 스캔";
+"enter_manually" = "수동 입력";
+"quick_settings" = "빠른 설정";
+"more_options" = "추가 옵션";
+"brand" = "브랜드";
+"barcode" = "바코드";
+"align_barcode" = "프레임 내에 바코드 정렬";
+"position_barcode" = "프레임 내에 바코드 위치";
+"scanned_code" = "스캔됨: %@";
+"error_camera_denied" = "카메라 접근 거부됨. 설정에서 활성화하세요.";
+"error_no_camera" = "카메라를 사용할 수 없습니다.";
+"error_camera_setup" = "카메라 설정 실패.";
+"error_invalid_barcode" = "잘못된 바코드 형식.";
+"error_network" = "네트워크 오류. 연결을 확인하세요.";
+"error_product_not_found" = "제품을 찾을 수 없습니다.";
+"members" = "멤버";
+"owner" = "소유자";
+"ok" = "확인";
+"error" = "오류";
+
+// MARK: - Actions / Buttons  
+"action_delete" = "Delete";
+"action_to_shopping" = "To Shopping";
+"action_add_to_stock" = "Add to Stock";
+"action_mark_opened" = "Mark Opened";
+"action_add_item" = "Add Item";
+"action_add" = "Add";
+"action_cancel" = "Cancel";
+"action_done" = "Done";
+"action_close" = "Close";
+"action_clear" = "Clear";
+"action_clear_list" = "Clear List";
+"action_scan" = "Scan";
+"action_filter" = "Filter";
+"action_more" = "More";
+"action_sort_by" = "Sort By";
+"action_show_expired" = "Show Expired";
+"action_delete_expired_items" = "Delete Expired Items";
+"action_move_all_to_stock" = "Move All to Stock";
+"action_quick_add" = "Quick Add";
+"action_add_detailed_item" = "Add Detailed Item";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"view_shopping" = "Shopping";
+"shopping_list" = "Shopping List";
+"tip_jar" = "Tip Jar";
+
+// MARK: - Status Messages
+"status_expired" = "Expired";
+"status_critical_1_2_days" = "Critical (1-2 days)";
+"status_warning_3_7_days" = "Warning (3-7 days)";
+
+// MARK: - Empty States
+"empty_stock_title" = "No Items";
+"empty_shopping_title" = "List Empty";
+"empty_shopping_message" = "Add items to buy later";
+
+// MARK: - Form Fields
+"field_item_name" = "Item Name";
+"field_name" = "Name";
+"field_quantity_optional" = "Quantity (optional)";
+"field_store_optional" = "Store (optional)";
+"field_location" = "Location";
+"field_days" = "Days";
+
+// MARK: - Other
+"unknown" = "Unknown";
+"error_unknown" = "Unknown error";
+"version" = "Version";
+"build" = "Build";
+"contact" = "Contact";
+"github" = "GitHub";
+"owner" = "Owner";
+"private" = "Private";
+"tip_jar_thank_you" = "Thank You!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

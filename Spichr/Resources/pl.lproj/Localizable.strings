@@ -1,0 +1,105 @@
+/* Localizable.strings (Polish) Spichr */
+
+"settings" = "Ustawienia";
+"statistics" = "Statystyki";
+"manage_household" = "Zarządzaj gospodarstwem";
+"share_with_family" = "Udostępnij rodzinie";
+"household_is_shared" = "Gospodarstwo udostępnione";
+"household_is_private" = "Prywatne gospodarstwo";
+"invite_more_people" = "Zaproś więcej osób";
+"stop_sharing" = "Przestań udostępniać";
+"privacy_policy" = "Polityka prywatności";
+"help_support" = "Pomoc i wsparcie";
+"support_spichr" = "Wesprzyj Spichr";
+"buy_coffee" = "Postaw mi kawę ☕";
+"empty_stock_message" = "Dodaj swój pierwszy przedmiot";
+"empty_shopping_message" = "Dodaj przedmioty do kupienia";
+"all_locations" = "Wszystkie lokalizacje";
+"basic_information" = "Podstawowe informacje";
+
+// MARK: - Add Flow (Polish)
+"scan_barcode" = "Skanuj kod kreskowy";
+"add_manually" = "Dodaj ręcznie";
+"quick_add" = "Szybkie dodawanie";
+"loading_product_info" = "Ładowanie informacji...";
+"product_found" = "Znaleziono produkt";
+"product_not_found_title" = "Produkt nie znaleziony";
+"product_not_found_message" = "Nie mogliśmy znaleźć tego produktu. Możesz skanować ponownie lub wprowadzić szczegóły ręcznie.";
+"scan_again" = "Skanuj ponownie";
+"enter_manually" = "Wprowadź ręcznie";
+"quick_settings" = "Szybkie ustawienia";
+"more_options" = "Więcej opcji";
+"brand" = "Marka";
+"barcode" = "Kod kreskowy";
+"align_barcode" = "Wyrównaj kod w ramce";
+"position_barcode" = "Umieść kod w ramce";
+"scanned_code" = "Zeskanowano: %@";
+"error_camera_denied" = "Odmówiono dostępu do kamery. Włącz w Ustawieniach.";
+"error_no_camera" = "Brak dostępnej kamery.";
+"error_camera_setup" = "Konfiguracja kamery nie powiodła się.";
+"error_invalid_barcode" = "Nieprawidłowy format kodu.";
+"error_network" = "Błąd sieci. Sprawdź połączenie.";
+"error_product_not_found" = "Produkt nie znaleziony.";
+"members" = "Członkowie";
+"owner" = "Właściciel";
+"ok" = "OK";
+"error" = "Błąd";
+
+// MARK: - Actions / Buttons  
+"action_delete" = "Delete";
+"action_to_shopping" = "To Shopping";
+"action_add_to_stock" = "Add to Stock";
+"action_mark_opened" = "Mark Opened";
+"action_add_item" = "Add Item";
+"action_add" = "Add";
+"action_cancel" = "Cancel";
+"action_done" = "Done";
+"action_close" = "Close";
+"action_clear" = "Clear";
+"action_clear_list" = "Clear List";
+"action_scan" = "Scan";
+"action_filter" = "Filter";
+"action_more" = "More";
+"action_sort_by" = "Sort By";
+"action_show_expired" = "Show Expired";
+"action_delete_expired_items" = "Delete Expired Items";
+"action_move_all_to_stock" = "Move All to Stock";
+"action_quick_add" = "Quick Add";
+"action_add_detailed_item" = "Add Detailed Item";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"view_shopping" = "Shopping";
+"shopping_list" = "Shopping List";
+"tip_jar" = "Tip Jar";
+
+// MARK: - Status Messages
+"status_expired" = "Expired";
+"status_critical_1_2_days" = "Critical (1-2 days)";
+"status_warning_3_7_days" = "Warning (3-7 days)";
+
+// MARK: - Empty States
+"empty_stock_title" = "No Items";
+"empty_shopping_title" = "List Empty";
+"empty_shopping_message" = "Add items to buy later";
+
+// MARK: - Form Fields
+"field_item_name" = "Item Name";
+"field_name" = "Name";
+"field_quantity_optional" = "Quantity (optional)";
+"field_store_optional" = "Store (optional)";
+"field_location" = "Location";
+"field_days" = "Days";
+
+// MARK: - Other
+"unknown" = "Unknown";
+"error_unknown" = "Unknown error";
+"version" = "Version";
+"build" = "Build";
+"contact" = "Contact";
+"github" = "GitHub";
+"owner" = "Owner";
+"private" = "Private";
+"tip_jar_thank_you" = "Thank You!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

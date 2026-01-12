@@ -1,0 +1,365 @@
+/* 
+  Localizable.strings (English)
+  Spichr
+  
+  Created by Sebastian Skerski
+*/
+
+// MARK: - General
+"unnamed_item" = "Unnamed Item";
+"no_location" = "No Location";
+"no_store" = "No Store";
+"search_items" = "Search items...";
+
+// MARK: - Expiration Status
+"no_expiration_date" = "No expiration date";
+"expired_yesterday" = "Expired yesterday";
+"expired_days_ago" = "Expired %d days ago";
+"expires_today" = "Expires today";
+"expires_tomorrow" = "Expires tomorrow";
+"expires_in_days" = "Expires in %d days";
+
+// MARK: - Groups
+"group_expired" = "Expired";
+"group_critical" = "Critical (1-2 days)";
+"group_warning" = "Warning (3-7 days)";
+"group_approaching" = "Approaching (8-30 days)";
+"group_fresh" = "Fresh (>30 days)";
+"group_no_date" = "No Date";
+
+// MARK: - Sorting
+"sort_expiration" = "Expiration Date";
+"sort_name" = "Name";
+"sort_location" = "Location";
+
+// MARK: - Locations
+"location_fridge" = "Refrigerator";
+"location_freezer" = "Freezer";
+"location_pantry" = "Pantry";
+"location_counter" = "Counter";
+"location_basement" = "Basement";
+
+// MARK: - Actions
+"add_item" = "Add Item";
+"edit_item" = "Edit Item";
+"add" = "Add";
+"save" = "Save";
+"cancel" = "Cancel";
+"delete" = "Delete";
+"done" = "Done";
+
+// MARK: - Validation Errors
+"error_name_required" = "Name is required";
+"error_opened_future" = "Opened date cannot be in the future";
+"error_shelf_life_negative" = "Shelf life cannot be negative";
+
+// MARK: - Notifications (Phase 3)
+"notification_daily_summary_title" = "Your Inventory";
+"notification_daily_summary_body" = "You have %d items expiring soon";
+"notification_daily_summary_all_good" = "All items are fresh!";
+"notification_expiring_title" = "Item expiring soon";
+"notification_expiring_30_days" = "%@ expires in 30 days";
+"notification_expiring_7_days" = "%@ expires in 7 days";
+"notification_expiring_tomorrow" = "%@ expires tomorrow!";
+"notification_expiring_today_title" = "Item expires today!";
+"notification_expiring_today" = "%@ expires today";
+"notification_opened_item_title" = "Opened item expiring";
+"notification_opened_item_body" = "%@ was opened and expires soon";
+"notification_action_view" = "View";
+"notification_action_delete" = "Delete";
+
+// MARK: - Barcode Scanner
+"error_camera_denied" = "Camera access denied";
+"error_no_camera" = "No camera available";
+"error_camera_setup" = "Camera setup failed";
+"error_invalid_barcode" = "Invalid barcode";
+"error_network" = "Network error";
+"error_product_not_found" = "Product not found";
+
+// MARK: - CloudKit Sharing
+"error_icloud_unavailable" = "iCloud account unavailable";
+"error_share_not_found" = "Share not found";
+"error_accept_share_failed" = "Failed to accept share: %@";
+
+// MARK: - Tip Jar
+"support_developer" = "Support Developer";
+"tip_small_title" = "Small Tip";
+"tip_small_desc" = "Buy me a coffee! ☕";
+"tip_medium_title" = "Medium Tip";
+"tip_medium_desc" = "Support the development! 🙏";
+"tip_large_title" = "Large Tip";
+"tip_large_desc" = "You're awesome! Thank you! 🎉";
+
+// MARK: - Household Sharing
+"share_household" = "Household Sharing";
+"manage_household" = "Manage Household";
+"household" = "Household";
+"private" = "Private";
+"shared" = "Shared";
+"members" = "members";
+
+// MARK: - Settings
+"settings" = "Settings";
+"statistics" = "Statistics";
+"total_items" = "Total Items";
+"stock_items" = "Stock Items";
+"shopping_items" = "Shopping Items";
+"expiring_soon" = "Expiring Soon";
+"notifications" = "Notifications";
+"enable_notifications" = "Enable Notifications";
+"daily_summary" = "Daily Summary";
+"summary_time" = "Summary Time";
+"expiring_30_days" = "Expiring in 30 Days";
+"expiring_7_days" = "Expiring in 7 Days";
+"expiring_tomorrow" = "Expiring Tomorrow";
+"expiring_today" = "Expiring Today";
+"opened_items" = "Opened Items";
+"open_settings" = "Open Settings";
+"icloud" = "iCloud";
+"account_status" = "Account Status";
+"sync_enabled" = "Sync Enabled";
+"data_management" = "Data Management";
+"export_data" = "Export Data";
+"delete_all_data" = "Delete All Data";
+"delete_confirmation" = "Delete All Data?";
+"about" = "About";
+"version" = "Version";
+"build" = "Build";
+"github" = "GitHub";
+"support" = "Support";
+
+// MARK: - Missing Localizations (from Audit)
+
+// Empty States
+"empty_stock_message" = "Add your first item to get started";
+"empty_shopping_message" = "Add items you need to buy";
+"all_locations" = "All Locations";
+
+// Household Sharing
+"manage_household" = "Manage Household";
+"share_with_family" = "Share with family";
+"household_sharing_description" = "Share your entire inventory with family members. Everyone can add, edit, and manage items together.";
+"household_is_shared" = "Household is shared";
+"household_is_private" = "Household is private";
+"household_shared_description" = "All items in your inventory are visible to household members. They can add, edit, and delete items.";
+"household_private_description" = "Share with family members to collaborate on your food inventory. Perfect for households, roommates, and partners!";
+"invite_more_people" = "Invite More People";
+"stop_sharing" = "Stop Sharing";
+"share_household_button" = "Share Household";
+"sharing" = "Sharing";
+"how_it_works" = "How It Works";
+"rename_household" = "Rename Household";
+
+// Links & About
+"privacy_policy" = "Privacy Policy";
+"help_support" = "Help & Support";
+"contact" = "Contact";
+
+// Tip Jar
+"support_spichr" = "Support Spichr";
+"buy_coffee" = "Buy me a coffee ☕";
+"support_developer_title" = "Support the Developer";
+"spichr_free_message" = "Spichr is 100% free with no ads. Your support helps me maintain and improve the app!";
+"tip_jar_message" = "Spichr is completely free with no ads. If you find it useful, consider supporting its development with a tip!";
+"contribution_message" = "Every contribution helps keep Spichr running and improving!";
+"thank_you_support" = "Thank you for your support! 🙏";
+"support_means_world" = "Your support means the world! It helps keep Spichr free for everyone.";
+
+// Add/Edit Item
+"basic_information" = "Basic Information";
+"in_stock_toggle_hint" = "Toggle 'In Stock' to add directly to your inventory";
+"shelf_life_after_opening" = "Shelf Life After Opening";
+"dates" = "Dates";
+"expiration_calculation_hint" = "If opened, the expiration will be calculated from the opening date plus shelf life";
+
+// Relative Time
+"opened_relative" = "Opened %@";
+
+// Actions
+"tap_share_household" = "Tap 'Share Household'";
+"send_link_messages" = "Send link via Messages or AirDrop";
+"recipients_open_accept" = "Recipients open link and accept";
+"everyone_sees_inventory" = "Everyone sees the same inventory!";
+"start_sharing" = "Start Sharing";
+"currently_shared" = "Currently Shared";
+"not_shared" = "Not Shared";
+"all_items_shared_description" = "All items in this household are shared with members.";
+
+// MARK: - Complete Missing Strings
+"manage_household" = "Manage Household";
+"share_with_family" = "Share with family";
+"household_sharing_description" = "Share your entire inventory with family members. Everyone can add, edit, and manage items together.";
+"privacy_policy" = "Privacy Policy";
+"help_support" = "Help & Support";
+"contact" = "Contact";
+"github" = "GitHub";
+"support_spichr" = "Support Spichr";
+"buy_coffee" = "Buy me a coffee ☕";
+"spichr_free_message" = "Spichr is 100% free with no ads. Your support helps me maintain and improve the app!";
+"support_developer_title" = "Support the Developer";
+"tip_jar_message" = "Spichr is completely free with no ads. If you find it useful, consider supporting its development with a tip!";
+"contribution_message" = "Every contribution helps keep Spichr running and improving!";
+"thank_you_support" = "Thank you for your support! 🙏";
+"support_means_world" = "Your support means the world! It helps keep Spichr free for everyone.";
+"private" = "Private";
+"household_is_shared" = "Household is shared";
+"household_shared_description" = "All items in your inventory are visible to household members. They can add, edit, and delete items.";
+"household_is_private" = "Household is private";
+"household_private_description" = "Share with family members to collaborate on your food inventory. Perfect for households, roommates, and partners!";
+"sharing" = "Sharing";
+"invite_more_people" = "Invite More People";
+"stop_sharing" = "Stop Sharing";
+"share_household" = "Share Household";
+"empty_shopping_message" = "Add items you need to buy";
+"basic_information" = "Basic Information";
+"in_stock_toggle_hint" = "Toggle 'In Stock' to add directly to your inventory";
+"shelf_life_after_opening" = "Shelf Life After Opening";
+"dates" = "Dates";
+"expiration_calculation_hint" = "If opened, the expiration will be calculated from the opening date plus shelf life";
+"all_locations" = "All Locations";
+"empty_stock_message" = "Add your first item to get started";
+
+// MARK: - Complete Missing Strings
+"manage_household" = "Manage Household";
+"share_with_family" = "Share with family";
+"household_sharing_footer" = "Share your entire inventory with family members. Everyone can add, edit, and manage items together.";
+"privacy_policy" = "Privacy Policy";
+"help_support" = "Help & Support";
+"contact" = "Contact";
+"github" = "GitHub";
+"support_spichr" = "Support Spichr";
+"buy_coffee" = "Buy me a coffee ☕";
+"spichr_free_message" = "Spichr is 100% free with no ads. Your support helps me maintain and improve the app!";
+"support_developer_title" = "Support the Developer";
+"tip_jar_description" = "Spichr is completely free with no ads. If you find it useful, consider supporting its development with a tip!";
+"contribution_helps" = "Every contribution helps keep Spichr running and improving!";
+"thank_you_support" = "Thank you for your support! 🙏";
+"support_means_world" = "Your support means the world! It helps keep Spichr free for everyone.";
+"private" = "Private";
+"household_shared" = "Household is shared";
+"household_shared_description" = "All items in your inventory are visible to household members. They can add, edit, and delete items.";
+"household_private" = "Household is private";
+"household_private_description" = "Share with family members to collaborate on your food inventory. Perfect for households, roommates, and partners!";
+"sharing" = "Sharing";
+"invite_more_people" = "Invite More People";
+"stop_sharing" = "Stop Sharing";
+"share_household" = "Share Household";
+"empty_shopping_message" = "Add items you need to buy";
+"basic_information" = "Basic Information";
+"in_stock_toggle_hint" = "Toggle 'In Stock' to add directly to your inventory";
+"shelf_life_after_opening" = "Shelf Life After Opening";
+"dates" = "Dates";
+"expiration_calculation_hint" = "If opened, the expiration will be calculated from the opening date plus shelf life";
+"opened_relative" = "Opened %@";
+"rename_household" = "Rename Household";
+"household_name" = "Name";
+
+// MARK: - Missing UI Strings
+"manage_household" = "Manage Household";
+"share_with_family" = "Share with family";
+"household_sharing_description" = "Share your entire inventory with family members. Everyone can add, edit, and manage items together.";
+"household_is_shared" = "Household is shared";
+"household_is_private" = "Household is private";
+"household_shared_desc" = "All items in your inventory are visible to household members. They can add, edit, and delete items.";
+"household_private_desc" = "Share with family members to collaborate on your food inventory. Perfect for households, roommates, and partners!";
+"invite_more_people" = "Invite More People";
+"stop_sharing" = "Stop Sharing";
+"share_household_button" = "Share Household";
+"sharing_section" = "Sharing";
+"support_developer_title" = "Support the Developer";
+"tip_jar_description" = "Spichr is completely free with no ads. If you find it useful, consider supporting its development with a tip!";
+"contribution_helps" = "Every contribution helps keep Spichr running and improving!";
+"thank_you_support" = "Thank you for your support! 🙏";
+"support_means_world" = "Your support means the world! It helps keep Spichr free for everyone.";
+"opened_relative" = "Opened %@";
+
+// MARK: - Add Flow
+"scan_barcode" = "Scan Barcode";
+"add_manually" = "Add Manually";
+"quick_add" = "Quick Add";
+"loading_product_info" = "Loading product info...";
+"product_found" = "Product Found";
+"product_not_found_title" = "Product Not Found";
+"product_not_found_message" = "We couldn't find this product in our database. You can scan again or enter details manually.";
+"scan_again" = "Scan Again";
+"enter_manually" = "Enter Manually";
+"quick_settings" = "Quick Settings";
+"more_options" = "More Options";
+"brand" = "Brand";
+
+// MARK: - Barcode Scanner
+"align_barcode" = "Align barcode within frame";
+"position_barcode" = "Position the barcode within the frame";
+"scanned_code" = "Scanned: %@";
+
+// MARK: - Errors
+"error_camera_denied" = "Camera access denied. Please enable in Settings.";
+"error_no_camera" = "No camera available on this device.";
+"error_camera_setup" = "Camera setup failed. Please try again.";
+"error_invalid_barcode" = "Invalid barcode format.";
+"error_network" = "Network error. Please check your connection.";
+"error_product_not_found" = "Product not found in database.";
+"barcode" = "Barcode";
+"members" = "Members";
+"owner" = "Owner";
+"ok" = "OK";
+"error" = "Error";
+
+// MARK: - Actions / Buttons
+"action_delete" = "Delete";
+"action_to_shopping" = "To Shopping";
+"action_add_to_stock" = "Add to Stock";
+"action_mark_opened" = "Mark Opened";
+"action_add_item" = "Add Item";
+"action_add" = "Add";
+"action_cancel" = "Cancel";
+"action_done" = "Done";
+"action_close" = "Close";
+"action_clear" = "Clear";
+"action_clear_list" = "Clear List";
+"action_scan" = "Scan";
+"action_filter" = "Filter";
+"action_more" = "More";
+"action_sort_by" = "Sort By";
+"action_show_expired" = "Show Expired";
+"action_delete_expired_items" = "Delete Expired Items";
+"action_move_all_to_stock" = "Move All to Stock";
+"action_quick_add" = "Quick Add";
+"action_add_detailed_item" = "Add Detailed Item";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"view_shopping" = "Shopping";
+"shopping_list" = "Shopping List";
+"tip_jar" = "Tip Jar";
+
+// MARK: - Status Messages  
+"status_expired" = "Expired";
+"status_critical_1_2_days" = "Critical (1-2 days)";
+"status_warning_3_7_days" = "Warning (3-7 days)";
+
+// MARK: - Empty States
+"empty_stock_title" = "No Items in Stock";
+"empty_shopping_title" = "Shopping List Empty";
+"empty_shopping_message" = "Add items to buy them later";
+
+// MARK: - Form Fields
+"field_item_name" = "Item Name";
+"field_name" = "Name";
+"field_quantity_optional" = "Quantity (optional)";
+"field_store_optional" = "Store (optional)";
+"field_location" = "Location";
+"field_days" = "Days";
+
+// MARK: - Other
+"unknown" = "Unknown";
+"error_unknown" = "Unknown error";
+"version" = "Version";
+"build" = "Build";
+"contact" = "Contact";
+"github" = "GitHub";
+"owner" = "Owner";
+"private" = "Private";
+"tip_jar_thank_you" = "You're Welcome!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

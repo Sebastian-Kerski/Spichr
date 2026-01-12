@@ -1,0 +1,105 @@
+/* Localizable.strings (Turkish) Spichr */
+
+"settings" = "Ayarlar";
+"statistics" = "İstatistikler";
+"manage_household" = "Ev halkını yönet";
+"share_with_family" = "Aileyle paylaş";
+"household_is_shared" = "Ev halkı paylaşıldı";
+"household_is_private" = "Özel ev halkı";
+"invite_more_people" = "Daha fazla kişi davet et";
+"stop_sharing" = "Paylaşmayı durdur";
+"privacy_policy" = "Gizlilik Politikası";
+"help_support" = "Yardım ve Destek";
+"support_spichr" = "Spichr'ı destekle";
+"buy_coffee" = "Bana kahve ısmarla ☕";
+"empty_stock_message" = "İlk ürününü ekle";
+"empty_shopping_message" = "Satın alınacak ürünler ekle";
+"all_locations" = "Tüm konumlar";
+"basic_information" = "Temel bilgiler";
+
+// MARK: - Add Flow (Turkish)
+"scan_barcode" = "Barkod tara";
+"add_manually" = "Manuel ekle";
+"quick_add" = "Hızlı ekle";
+"loading_product_info" = "Bilgi yükleniyor...";
+"product_found" = "Ürün bulundu";
+"product_not_found_title" = "Ürün bulunamadı";
+"product_not_found_message" = "Bu ürünü bulamadık. Tekrar tarayabilir veya detayları manuel girebilirsiniz.";
+"scan_again" = "Tekrar tara";
+"enter_manually" = "Manuel gir";
+"quick_settings" = "Hızlı ayarlar";
+"more_options" = "Daha fazla seçenek";
+"brand" = "Marka";
+"barcode" = "Barkod";
+"align_barcode" = "Barkodu çerçeveye hizala";
+"position_barcode" = "Barkodu çerçeveye konumlandır";
+"scanned_code" = "Tarandı: %@";
+"error_camera_denied" = "Kamera erişimi reddedildi. Ayarlardan etkinleştirin.";
+"error_no_camera" = "Kamera mevcut değil.";
+"error_camera_setup" = "Kamera kurulumu başarısız.";
+"error_invalid_barcode" = "Geçersiz barkod formatı.";
+"error_network" = "Ağ hatası. Bağlantınızı kontrol edin.";
+"error_product_not_found" = "Ürün bulunamadı.";
+"members" = "Üyeler";
+"owner" = "Sahibi";
+"ok" = "Tamam";
+"error" = "Hata";
+
+// MARK: - Actions / Buttons  
+"action_delete" = "Delete";
+"action_to_shopping" = "To Shopping";
+"action_add_to_stock" = "Add to Stock";
+"action_mark_opened" = "Mark Opened";
+"action_add_item" = "Add Item";
+"action_add" = "Add";
+"action_cancel" = "Cancel";
+"action_done" = "Done";
+"action_close" = "Close";
+"action_clear" = "Clear";
+"action_clear_list" = "Clear List";
+"action_scan" = "Scan";
+"action_filter" = "Filter";
+"action_more" = "More";
+"action_sort_by" = "Sort By";
+"action_show_expired" = "Show Expired";
+"action_delete_expired_items" = "Delete Expired Items";
+"action_move_all_to_stock" = "Move All to Stock";
+"action_quick_add" = "Quick Add";
+"action_add_detailed_item" = "Add Detailed Item";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"view_shopping" = "Shopping";
+"shopping_list" = "Shopping List";
+"tip_jar" = "Tip Jar";
+
+// MARK: - Status Messages
+"status_expired" = "Expired";
+"status_critical_1_2_days" = "Critical (1-2 days)";
+"status_warning_3_7_days" = "Warning (3-7 days)";
+
+// MARK: - Empty States
+"empty_stock_title" = "No Items";
+"empty_shopping_title" = "List Empty";
+"empty_shopping_message" = "Add items to buy later";
+
+// MARK: - Form Fields
+"field_item_name" = "Item Name";
+"field_name" = "Name";
+"field_quantity_optional" = "Quantity (optional)";
+"field_store_optional" = "Store (optional)";
+"field_location" = "Location";
+"field_days" = "Days";
+
+// MARK: - Other
+"unknown" = "Unknown";
+"error_unknown" = "Unknown error";
+"version" = "Version";
+"build" = "Build";
+"contact" = "Contact";
+"github" = "GitHub";
+"owner" = "Owner";
+"private" = "Private";
+"tip_jar_thank_you" = "Thank You!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

@@ -1,0 +1,76 @@
+{
+  "identifier" : "SpichrTips",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "spichr_tip_small",
+      "localizations" : [
+        {
+          "description" : "Buy me a coffee ☕️",
+          "displayName" : "Small Tip",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Einen Kaffee ausgeben ☕️",
+          "displayName" : "Kleines Trinkgeld",
+          "locale" : "de_DE"
+        }
+      ],
+      "productID" : "com.de.SkerskiDev.Spichr.tip.small",
+      "referenceName" : "Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "spichr_tip_medium",
+      "localizations" : [
+        {
+          "description" : "Support the development 🙏",
+          "displayName" : "Medium Tip",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Entwicklung unterstützen 🙏",
+          "displayName" : "Mittleres Trinkgeld",
+          "locale" : "de_DE"
+        }
+      ],
+      "productID" : "com.de.SkerskiDev.Spichr.tip.medium",
+      "referenceName" : "Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "spichr_tip_large",
+      "localizations" : [
+        {
+          "description" : "You're awesome! Thank you! 🎉",
+          "displayName" : "Large Tip",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Du bist großartig! Danke! 🎉",
+          "displayName" : "Großes Trinkgeld",
+          "locale" : "de_DE"
+        }
+      ],
+      "productID" : "com.de.SkerskiDev.Spichr.tip.large",
+      "referenceName" : "Large Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "de_DE",
+    "_storefront" : "DEU"
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

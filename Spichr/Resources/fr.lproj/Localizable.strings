@@ -1,0 +1,180 @@
+/* 
+  Localizable.strings (French)
+  Spichr
+  
+  Created by Sebastian Skerski
+*/
+
+// MARK: - General
+"unnamed_item" = "Article sans nom";
+"no_location" = "Aucun emplacement";
+"no_store" = "Aucun magasin";
+"search_items" = "Rechercher des articles...";
+
+// MARK: - Actions
+"add_item" = "Ajouter un article";
+"edit_item" = "Modifier l'article";
+"add" = "Ajouter";
+"save" = "Enregistrer";
+"cancel" = "Annuler";
+"delete" = "Supprimer";
+"done" = "Terminé";
+
+// MARK: - Settings
+"settings" = "Réglages";
+"statistics" = "Statistiques";
+"total_items" = "Total des articles";
+"stock_items" = "Articles en stock";
+"shopping_items" = "Liste de courses";
+"expiring_soon" = "Expire bientôt";
+"notifications" = "Notifications";
+"icloud" = "iCloud";
+"data_management" = "Gestion des données";
+"about" = "À propos";
+"version" = "Version";
+"build" = "Build";
+
+// MARK: - Empty States
+"empty_stock_message" = "Ajoutez votre premier article pour commencer";
+"empty_shopping_message" = "Ajoutez des articles à acheter";
+"all_locations" = "Tous les emplacements";
+
+// MARK: - Household
+"manage_household" = "Gérer le foyer";
+"share_with_family" = "Partager avec la famille";
+"household_is_shared" = "Le foyer est partagé";
+"household_is_private" = "Le foyer est privé";
+"invite_more_people" = "Inviter plus de personnes";
+"stop_sharing" = "Arrêter le partage";
+"share_household_button" = "Partager le foyer";
+"sharing" = "Partage";
+
+// MARK: - Links
+"privacy_policy" = "Politique de confidentialité";
+"help_support" = "Aide et support";
+"contact" = "Contact";
+"github" = "GitHub";
+
+// MARK: - Tip Jar
+"support_spichr" = "Soutenir Spichr";
+"buy_coffee" = "M'offrir un café ☕";
+"support_developer_title" = "Soutenir le développeur";
+"spichr_free_message" = "Spichr est 100% gratuit sans publicités. Votre soutien m'aide à maintenir et améliorer l'application!";
+
+// MARK: - Add/Edit
+"basic_information" = "Informations de base";
+"shelf_life_after_opening" = "Durée de conservation après ouverture";
+"dates" = "Dates";
+
+// MARK: - Missing Strings
+"manage_household" = "Gérer le ménage";
+"share_with_family" = "Partager avec la famille";
+"household_sharing_description" = "Partagez votre inventaire avec les membres de la famille.";
+"household_is_shared" = "Ménage partagé";
+"household_is_private" = "Ménage privé";
+"invite_more_people" = "Inviter plus de personnes";
+"stop_sharing" = "Arrêter le partage";
+"privacy_policy" = "Politique de confidentialité";
+"help_support" = "Aide & Support";
+"support_spichr" = "Soutenir Spichr";
+"buy_coffee" = "M'offrir un café ☕";
+"spichr_free_message" = "Spichr est 100% gratuit sans publicité.";
+"empty_stock_message" = "Ajoutez votre premier article";
+"empty_shopping_message" = "Ajoutez des articles à acheter";
+"all_locations" = "Tous les emplacements";
+"basic_information" = "Informations de base";
+"in_stock_toggle_hint" = "Activez 'En stock' pour ajouter à l'inventaire";
+"shelf_life_after_opening" = "Durée après ouverture";
+
+// MARK: - Add Flow
+"scan_barcode" = "Scanner le code-barres";
+"add_manually" = "Ajouter manuellement";
+"quick_add" = "Ajout rapide";
+"loading_product_info" = "Chargement des informations...";
+"product_found" = "Produit trouvé";
+"product_not_found_title" = "Produit non trouvé";
+"product_not_found_message" = "Nous n'avons pas trouvé ce produit. Vous pouvez scanner à nouveau ou entrer les détails manuellement.";
+"scan_again" = "Scanner à nouveau";
+"enter_manually" = "Entrer manuellement";
+"quick_settings" = "Paramètres rapides";
+"more_options" = "Plus d'options";
+"brand" = "Marque";
+"barcode" = "Code-barres";
+
+// MARK: - Barcode Scanner
+"align_barcode" = "Alignez le code-barres dans le cadre";
+"position_barcode" = "Positionnez le code-barres dans le cadre";
+"scanned_code" = "Scanné : %@";
+
+// MARK: - Errors
+"error_camera_denied" = "Accès à la caméra refusé. Veuillez activer dans les Réglages.";
+"error_no_camera" = "Aucune caméra disponible sur cet appareil.";
+"error_camera_setup" = "Configuration de la caméra échouée.";
+"error_invalid_barcode" = "Format de code-barres invalide.";
+"error_network" = "Erreur réseau. Vérifiez votre connexion.";
+"error_product_not_found" = "Produit non trouvé dans la base de données.";
+
+// MARK: - General
+"members" = "Membres";
+"owner" = "Propriétaire";
+"ok" = "OK";
+"error" = "Erreur";
+
+// MARK: - Actions / Buttons
+"action_delete" = "Supprimer";
+"action_to_shopping" = "Vers les courses";
+"action_add_to_stock" = "Ajouter au stock";
+"action_mark_opened" = "Marquer comme ouvert";
+"action_add_item" = "Ajouter un article";
+"action_add" = "Ajouter";
+"action_cancel" = "Annuler";
+"action_done" = "Terminé";
+"action_close" = "Fermer";
+"action_clear" = "Vider";
+"action_clear_list" = "Vider la liste";
+"action_scan" = "Scanner";
+"action_filter" = "Filtrer";
+"action_more" = "Plus";
+"action_sort_by" = "Trier par";
+"action_show_expired" = "Afficher périmés";
+"action_delete_expired_items" = "Supprimer articles périmés";
+"action_move_all_to_stock" = "Tout vers le stock";
+"action_quick_add" = "Ajout rapide";
+"action_add_detailed_item" = "Ajout détaillé";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"view_shopping" = "Courses";
+"shopping_list" = "Liste de courses";
+"tip_jar" = "Pourboire";
+
+// MARK: - Status Messages
+"status_expired" = "Périmé";
+"status_critical_1_2_days" = "Critique (1-2 jours)";
+"status_warning_3_7_days" = "Attention (3-7 jours)";
+
+// MARK: - Empty States
+"empty_stock_title" = "Aucun article";
+"empty_shopping_title" = "Liste vide";
+"empty_shopping_message" = "Ajoutez des articles à acheter";
+
+// MARK: - Form Fields
+"field_item_name" = "Nom de l'article";
+"field_name" = "Nom";
+"field_quantity_optional" = "Quantité (facultatif)";
+"field_store_optional" = "Magasin (facultatif)";
+"field_location" = "Emplacement";
+"field_days" = "Jours";
+
+// MARK: - Other
+"unknown" = "Inconnu";
+"error_unknown" = "Erreur inconnue";
+"version" = "Version";
+"build" = "Build";
+"contact" = "Contact";
+"github" = "GitHub";
+"owner" = "Propriétaire";
+"private" = "Privé";
+"tip_jar_thank_you" = "Merci!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings (Portuguese)
+  Spichr
+  
+  Created by Sebastian Skerski
+*/
+
+// MARK: - General
+"unnamed_item" = "Item sem nome";
+"no_location" = "Sem localização";
+"no_store" = "Sem loja";
+"search_items" = "Pesquisar itens...";
+
+// MARK: - Actions
+"add_item" = "Adicionar item";
+"edit_item" = "Editar item";
+"add" = "Adicionar";
+"save" = "Salvar";
+"cancel" = "Cancelar";
+"delete" = "Excluir";
+"done" = "Concluído";
+
+// MARK: - Settings
+"settings" = "Configurações";
+"statistics" = "Estatísticas";
+"total_items" = "Total de itens";
+"stock_items" = "Itens em estoque";
+"shopping_items" = "Lista de compras";
+"expiring_soon" = "Vence em breve";
+"notifications" = "Notificações";
+"icloud" = "iCloud";
+"data_management" = "Gerenciamento de dados";
+"about" = "Sobre";
+"version" = "Versão";
+"build" = "Build";
+
+// MARK: - Empty States
+"empty_stock_message" = "Adicione seu primeiro item para começar";
+"empty_shopping_message" = "Adicione itens que precisa comprar";
+"all_locations" = "Todas as localizações";
+
+// MARK: - Household
+"manage_household" = "Gerenciar casa";
+"share_with_family" = "Compartilhar com família";
+"household_is_shared" = "A casa está compartilhada";
+"household_is_private" = "A casa é privada";
+"invite_more_people" = "Convidar mais pessoas";
+"stop_sharing" = "Parar compartilhamento";
+"share_household_button" = "Compartilhar casa";
+"sharing" = "Compartilhamento";
+
+// MARK: - Links
+"privacy_policy" = "Política de privacidade";
+"help_support" = "Ajuda e suporte";
+"contact" = "Contato";
+"github" = "GitHub";
+
+// MARK: - Tip Jar
+"support_spichr" = "Apoiar Spichr";
+"buy_coffee" = "Me pague um café ☕";
+"support_developer_title" = "Apoiar o desenvolvedor";
+"spichr_free_message" = "Spichr é 100% grátis sem anúncios. Seu apoio me ajuda a manter e melhorar o aplicativo!";
+
+// MARK: - Add/Edit
+"basic_information" = "Informações básicas";
+"shelf_life_after_opening" = "Validade após abertura";
+"dates" = "Datas";
+
+// MARK: - Missing Strings (Portuguese)
+"manage_household" = "Gerenciar família";
+"share_with_family" = "Compartilhar com família";
+"household_sharing_description" = "Compartilhe seu inventário com membros da família.";
+"household_is_shared" = "Família compartilhada";
+"household_is_private" = "Família privada";
+"invite_more_people" = "Convidar mais pessoas";
+"stop_sharing" = "Parar de compartilhar";
+"privacy_policy" = "Política de privacidade";
+"help_support" = "Ajuda e suporte";
+"support_spichr" = "Apoiar Spichr";
+"buy_coffee" = "Me pague um café ☕";
+"spichr_free_message" = "Spichr é 100% gratuito sem anúncios.";
+"empty_stock_message" = "Adicione seu primeiro item";
+"empty_shopping_message" = "Adicione itens para comprar";
+"all_locations" = "Todos os locais";
+"basic_information" = "Informações básicas";
+"in_stock_toggle_hint" = "Ative 'Em estoque' para adicionar ao inventário";
+"shelf_life_after_opening" = "Validade após abertura";
+
+// MARK: - Add Flow (Portuguese)
+"scan_barcode" = "Escanear código de barras";
+"add_manually" = "Adicionar manualmente";
+"quick_add" = "Adicionar rápido";
+"loading_product_info" = "Carregando informações...";
+"product_found" = "Produto encontrado";
+"product_not_found_title" = "Produto não encontrado";
+"product_not_found_message" = "Não encontramos este produto. Pode escanear novamente ou inserir os detalhes manualmente.";
+"scan_again" = "Escanear novamente";
+"enter_manually" = "Inserir manualmente";
+"quick_settings" = "Configurações rápidas";
+"more_options" = "Mais opções";
+"brand" = "Marca";
+"barcode" = "Código de barras";
+"align_barcode" = "Alinhe o código de barras no quadro";
+"position_barcode" = "Posicione o código de barras no quadro";
+"scanned_code" = "Escaneado: %@";
+"error_camera_denied" = "Acesso à câmera negado. Ative nas Configurações.";
+"error_no_camera" = "Nenhuma câmera disponível.";
+"error_camera_setup" = "Configuração de câmera falhou.";
+"error_invalid_barcode" = "Formato de código inválido.";
+"error_network" = "Erro de rede. Verifique sua conexão.";
+"error_product_not_found" = "Produto não encontrado.";
+"members" = "Membros";
+"owner" = "Proprietário";
+"ok" = "OK";
+"error" = "Erro";
+
+// MARK: - Actions / Buttons
+"action_delete" = "Excluir";
+"action_to_shopping" = "Para compras";
+"action_add_to_stock" = "Adicionar ao estoque";
+"action_mark_opened" = "Marcar como aberto";
+"action_add_item" = "Adicionar item";
+"action_add" = "Adicionar";
+"action_cancel" = "Cancelar";
+"action_done" = "Concluído";
+"action_close" = "Fechar";
+"action_clear" = "Limpar";
+"action_clear_list" = "Limpar lista";
+"action_scan" = "Escanear";
+"action_filter" = "Filtrar";
+"action_more" = "Mais";
+"action_sort_by" = "Ordenar por";
+"action_show_expired" = "Mostrar vencidos";
+"action_delete_expired_items" = "Excluir itens vencidos";
+"action_move_all_to_stock" = "Mover tudo para estoque";
+"action_quick_add" = "Adição rápida";
+"action_add_detailed_item" = "Adição detalhada";
+
+// MARK: - Views / Titles
+"view_stock" = "Estoque";
+"view_shopping" = "Compras";
+"shopping_list" = "Lista de compras";
+"tip_jar" = "Gorjeta";
+
+// MARK: - Status Messages
+"status_expired" = "Vencido";
+"status_critical_1_2_days" = "Crítico (1-2 dias)";
+"status_warning_3_7_days" = "Aviso (3-7 dias)";
+
+// MARK: - Empty States
+"empty_stock_title" = "Sem itens";
+"empty_shopping_title" = "Lista vazia";
+"empty_shopping_message" = "Adicione itens para comprar";
+
+// MARK: - Form Fields
+"field_item_name" = "Nome do item";
+"field_name" = "Nome";
+"field_quantity_optional" = "Quantidade (opcional)";
+"field_store_optional" = "Loja (opcional)";
+"field_location" = "Local";
+"field_days" = "Dias";
+
+// MARK: - Other
+"unknown" = "Desconhecido";
+"error_unknown" = "Erro desconhecido";
+"version" = "Versão";
+"build" = "Build";
+"contact" = "Contato";
+"github" = "GitHub";
+"owner" = "Proprietário";
+"private" = "Privado";
+"tip_jar_thank_you" = "Obrigado!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";

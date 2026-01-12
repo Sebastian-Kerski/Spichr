@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings (Italian)
+  Spichr
+  
+  Created by Sebastian Skerski
+*/
+
+// MARK: - General
+"unnamed_item" = "Articolo senza nome";
+"no_location" = "Nessuna posizione";
+"no_store" = "Nessun negozio";
+"search_items" = "Cerca articoli...";
+
+// MARK: - Actions
+"add_item" = "Aggiungi articolo";
+"edit_item" = "Modifica articolo";
+"add" = "Aggiungi";
+"save" = "Salva";
+"cancel" = "Annulla";
+"delete" = "Elimina";
+"done" = "Fatto";
+
+// MARK: - Settings
+"settings" = "Impostazioni";
+"statistics" = "Statistiche";
+"total_items" = "Articoli totali";
+"stock_items" = "Articoli in magazzino";
+"shopping_items" = "Lista della spesa";
+"expiring_soon" = "Scade presto";
+"notifications" = "Notifiche";
+"icloud" = "iCloud";
+"data_management" = "Gestione dati";
+"about" = "Informazioni";
+"version" = "Versione";
+"build" = "Build";
+
+// MARK: - Empty States
+"empty_stock_message" = "Aggiungi il tuo primo articolo per iniziare";
+"empty_shopping_message" = "Aggiungi articoli da comprare";
+"all_locations" = "Tutte le posizioni";
+
+// MARK: - Household
+"manage_household" = "Gestisci famiglia";
+"share_with_family" = "Condividi con famiglia";
+"household_is_shared" = "La famiglia è condivisa";
+"household_is_private" = "La famiglia è privata";
+"invite_more_people" = "Invita più persone";
+"stop_sharing" = "Interrompi condivisione";
+"share_household_button" = "Condividi famiglia";
+"sharing" = "Condivisione";
+
+// MARK: - Links
+"privacy_policy" = "Informativa sulla privacy";
+"help_support" = "Aiuto e supporto";
+"contact" = "Contatto";
+"github" = "GitHub";
+
+// MARK: - Tip Jar
+"support_spichr" = "Supporta Spichr";
+"buy_coffee" = "Offrimi un caffè ☕";
+"support_developer_title" = "Supporta lo sviluppatore";
+"spichr_free_message" = "Spichr è 100% gratuito senza pubblicità. Il tuo supporto mi aiuta a mantenere e migliorare l'app!";
+
+// MARK: - Add/Edit
+"basic_information" = "Informazioni di base";
+"shelf_life_after_opening" = "Durata dopo l'apertura";
+"dates" = "Date";
+
+// MARK: - Missing Strings (Italian)
+"manage_household" = "Gestisci famiglia";
+"share_with_family" = "Condividi con famiglia";
+"household_sharing_description" = "Condividi il tuo inventario con i membri della famiglia.";
+"household_is_shared" = "Famiglia condivisa";
+"household_is_private" = "Famiglia privata";
+"invite_more_people" = "Invita più persone";
+"stop_sharing" = "Interrompi condivisione";
+"privacy_policy" = "Informativa sulla privacy";
+"help_support" = "Aiuto e supporto";
+"support_spichr" = "Sostieni Spichr";
+"buy_coffee" = "Offrimi un caffè ☕";
+"spichr_free_message" = "Spichr è 100% gratuito senza pubblicità.";
+"empty_stock_message" = "Aggiungi il tuo primo articolo";
+"empty_shopping_message" = "Aggiungi articoli da comprare";
+"all_locations" = "Tutte le posizioni";
+"basic_information" = "Informazioni di base";
+"in_stock_toggle_hint" = "Attiva 'In magazzino' per aggiungere all'inventario";
+"shelf_life_after_opening" = "Durata dopo apertura";
+
+// MARK: - Add Flow (Italian)
+"scan_barcode" = "Scansiona codice a barre";
+"add_manually" = "Aggiungi manualmente";
+"quick_add" = "Aggiunta rapida";
+"loading_product_info" = "Caricamento informazioni...";
+"product_found" = "Prodotto trovato";
+"product_not_found_title" = "Prodotto non trovato";
+"product_not_found_message" = "Non abbiamo trovato questo prodotto. Puoi scansionare di nuovo o inserire i dettagli manualmente.";
+"scan_again" = "Scansiona di nuovo";
+"enter_manually" = "Inserisci manualmente";
+"quick_settings" = "Impostazioni rapide";
+"more_options" = "Più opzioni";
+"brand" = "Marca";
+"barcode" = "Codice a barre";
+"align_barcode" = "Allinea il codice a barre nel riquadro";
+"position_barcode" = "Posiziona il codice a barre nel riquadro";
+"scanned_code" = "Scansionato: %@";
+"error_camera_denied" = "Accesso fotocamera negato. Attiva nelle Impostazioni.";
+"error_no_camera" = "Nessuna fotocamera disponibile.";
+"error_camera_setup" = "Configurazione fotocamera fallita.";
+"error_invalid_barcode" = "Formato codice non valido.";
+"error_network" = "Errore di rete. Controlla la connessione.";
+"error_product_not_found" = "Prodotto non trovato.";
+"members" = "Membri";
+"owner" = "Proprietario";
+"ok" = "OK";
+"error" = "Errore";
+
+// MARK: - Actions / Buttons
+"action_delete" = "Elimina";
+"action_to_shopping" = "Alla spesa";
+"action_add_to_stock" = "Aggiungi al magazzino";
+"action_mark_opened" = "Segna come aperto";
+"action_add_item" = "Aggiungi articolo";
+"action_add" = "Aggiungi";
+"action_cancel" = "Annulla";
+"action_done" = "Fatto";
+"action_close" = "Chiudi";
+"action_clear" = "Svuota";
+"action_clear_list" = "Svuota lista";
+"action_scan" = "Scansiona";
+"action_filter" = "Filtra";
+"action_more" = "Altro";
+"action_sort_by" = "Ordina per";
+"action_show_expired" = "Mostra scaduti";
+"action_delete_expired_items" = "Elimina articoli scaduti";
+"action_move_all_to_stock" = "Sposta tutto al magazzino";
+"action_quick_add" = "Aggiunta rapida";
+"action_add_detailed_item" = "Aggiunta dettagliata";
+
+// MARK: - Views / Titles
+"view_stock" = "Magazzino";
+"view_shopping" = "Spesa";
+"shopping_list" = "Lista della spesa";
+"tip_jar" = "Mancia";
+
+// MARK: - Status Messages
+"status_expired" = "Scaduto";
+"status_critical_1_2_days" = "Critico (1-2 giorni)";
+"status_warning_3_7_days" = "Attenzione (3-7 giorni)";
+
+// MARK: - Empty States
+"empty_stock_title" = "Nessun articolo";
+"empty_shopping_title" = "Lista vuota";
+"empty_shopping_message" = "Aggiungi articoli da comprare";
+
+// MARK: - Form Fields
+"field_item_name" = "Nome articolo";
+"field_name" = "Nome";
+"field_quantity_optional" = "Quantità (opzionale)";
+"field_store_optional" = "Negozio (opzionale)";
+"field_location" = "Posizione";
+"field_days" = "Giorni";
+
+// MARK: - Other
+"unknown" = "Sconosciuto";
+"error_unknown" = "Errore sconosciuto";
+"version" = "Versione";
+"build" = "Build";
+"contact" = "Contatto";
+"github" = "GitHub";
+"owner" = "Proprietario";
+"private" = "Privato";
+"tip_jar_thank_you" = "Grazie!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"error_scanner" = "Scanner Error";
