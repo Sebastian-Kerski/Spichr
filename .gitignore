@@ -1,1 +1,25 @@
+# macOS
 .DS_Store
+
+# Xcode / Derived data
+DerivedData/
+build/
+
+# User-specific Xcode settings
+*.xcuserstate
+*.xcuserdata/
+
+# SwiftPM (wenn du Xcode über SwiftPM benutzt)
+.swiftpm/
+
+# Logs
+*.log
+
+# Fastlane (falls vorhanden)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Crashlytics / Firebase (falls vorhanden)
+GoogleService-Info.plist
