@@ -1,0 +1,14 @@
+# app-ads.txt
+# Spichr — Pantry & Food Inventory
+# Developer: Sebastian Kerski
+# Contact: sekidev@icloud.com
+#
+# This file is currently a placeholder.
+# Spichr does not serve third-party advertisements.
+# No authorized digital sellers are listed at this time.
+#
+# If advertising is introduced in a future version, this file
+# will be updated with the appropriate authorized seller entries
+# in accordance with IAB Tech Lab specifications.
+#
+# Reference: https://iabtechlab.com/ads-txt/

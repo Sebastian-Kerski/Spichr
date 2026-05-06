@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Spichr</title>
+  <meta name="description" content="Spichr support. Get help with sync issues, notifications, widgets, and more. Contact the developer directly." />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --bg-secondary: #f5f5f7;
+      --bg-card: #ffffff;
+      --text-primary: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --text-tertiary: #86868b;
+      --accent: #0071e3;
+      --accent-hover: #0077ed;
+      --border: rgba(0,0,0,0.08);
+      --shadow-card: 0 2px 20px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+      --radius: 18px;
+      --radius-sm: 12px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --bg-secondary: #1c1c1e;
+        --bg-card: #1c1c1e;
+        --text-primary: #f5f5f7;
+        --text-secondary: #a1a1a6;
+        --text-tertiary: #6e6e73;
+        --accent: #2997ff;
+        --accent-hover: #3ba3ff;
+        --border: rgba(255,255,255,0.09);
+        --shadow-card: 0 2px 20px rgba(0,0,0,0.4);
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    /* Nav */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 max(24px, env(safe-area-inset-right));
+      height: 52px;
+      background: rgba(255,255,255,0.82);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    @media (prefers-color-scheme: dark) { nav { background: rgba(0,0,0,0.82); } }
+
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-icon {
+      width: 28px; height: 28px; border-radius: 7px;
+      background: linear-gradient(145deg, #34c759, #30b350);
+      display: flex; align-items: center; justify-content: center; font-size: 15px;
+    }
+    .nav-logo-name { font-size: 17px; font-weight: 600; letter-spacing: -0.3px; color: var(--text-primary); }
+    .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--text-secondary); text-decoration: none; transition: color 0.15s; }
+    .nav-links a:hover { color: var(--text-primary); }
+    @media (max-width: 600px) { .nav-links { gap: 16px; } .nav-links li:first-child { display: none; } }
+
+    /* Page header */
+    .page-header {
+      text-align: center; padding: 64px 24px 48px;
+      max-width: 760px; margin: 0 auto;
+    }
+    .page-header .page-label {
+      font-size: 13px; font-weight: 600; letter-spacing: 0.8px;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 14px;
+    }
+    .page-header h1 {
+      font-size: clamp(32px, 6vw, 52px); font-weight: 700;
+      letter-spacing: -1.8px; line-height: 1.08; margin-bottom: 14px;
+    }
+    .page-header .meta { font-size: 14px; color: var(--text-tertiary); }
+
+    /* Contact banner */
+    .contact-banner {
+      max-width: 720px; margin: 0 auto 48px;
+      padding: 0 24px;
+    }
+    .contact-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; gap: 16px;
+    }
+    .contact-card .contact-icon { font-size: 36px; }
+    .contact-card p { font-size: 16px; color: var(--text-secondary); max-width: 420px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--accent); color: #fff;
+      font-size: 15px; font-weight: 600; padding: 12px 24px;
+      border-radius: 100px; text-decoration: none; letter-spacing: -0.1px;
+      transition: background 0.15s, transform 0.1s;
+      box-shadow: 0 1px 3px rgba(0,113,227,0.25);
+    }
+    .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+
+    /* Content */
+    .content { max-width: 720px; margin: 0 auto; padding: 0 24px 80px; }
+
+    .content h2 {
+      font-size: 22px; font-weight: 700; letter-spacing: -0.5px;
+      margin-top: 48px; margin-bottom: 14px; padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .content h3 {
+      font-size: 17px; font-weight: 600;
+      margin-top: 28px; margin-bottom: 10px; color: var(--text-primary);
+    }
+    .content p {
+      font-size: 16px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 14px;
+    }
+    .content ul, .content ol { padding-left: 24px; margin-bottom: 14px; }
+    .content li {
+      font-size: 16px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 6px;
+    }
+    .content a { color: var(--accent); text-decoration: none; }
+    .content a:hover { text-decoration: underline; }
+    .content strong { color: var(--text-primary); font-weight: 600; }
+    .content hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+    /* FAQ items */
+    .faq-item {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+    .faq-item strong {
+      display: block; font-size: 16px; font-weight: 600;
+      color: var(--text-primary); margin-bottom: 8px;
+    }
+    .faq-item p { margin-bottom: 0; font-size: 15px; }
+
+    /* Footer */
+    footer { border-top: 1px solid var(--border); padding: 40px 24px; background: var(--bg); }
+    .footer-inner {
+      max-width: 900px; margin: 0 auto;
+      display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center;
+    }
+    .footer-logo { display: flex; align-items: center; gap: 8px; }
+    .footer-logo-icon {
+      width: 24px; height: 24px; border-radius: 6px;
+      background: linear-gradient(145deg, #34c759, #30b350);
+      display: flex; align-items: center; justify-content: center; font-size: 13px;
+    }
+    .footer-logo-name { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 8px 24px; list-style: none; justify-content: center; }
+    .footer-links a { font-size: 13px; color: var(--text-secondary); text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--text-primary); }
+    .footer-copy { font-size: 12px; color: var(--text-tertiary); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="nav-logo-icon">🥦</div>
+    <span class="nav-logo-name">Spichr</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html#features">Features</a></li>
+    <li><a href="index.html#privacy">Privacy</a></li>
+    <li><a href="support.html">Support</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <p class="page-label">Help</p>
+  <h1>Support</h1>
+  <p class="meta">Spichr — Pantry &amp; Food Inventory</p>
+</div>
+
+<div class="contact-banner">
+  <div class="contact-card">
+    <div class="contact-icon">✉️</div>
+    <p>Can't find an answer below? Send an email and I'll get back to you within 2–3 business days.</p>
+    <a class="btn-primary" href="mailto:sekidev@icloud.com">sekidev@icloud.com</a>
+  </div>
+</div>
+
+<div class="content">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>General</h3>
+
+  <div class="faq-item">
+    <strong>Is Spichr free?</strong>
+    <p>Spichr offers a free tier with core features. Some advanced features may require a one-time purchase or optional upgrade, available through the App Store.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Does Spichr require an account?</strong>
+    <p>No. Spichr works entirely without an account. iCloud sync is optional and uses your existing Apple ID — no separate account is required.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Which devices are supported?</strong>
+    <p>Spichr requires iPhone running iOS 17.0 or later.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Is my data backed up?</strong>
+    <p>If you enable iCloud sync, your data is automatically backed up through Apple's CloudKit. You can also create a manual backup at any time using the JSON Export feature in Settings.</p>
+  </div>
+
+  <hr>
+
+  <h2>Sync Issues</h2>
+
+  <h3>iCloud sync isn't working</h3>
+  <ol>
+    <li>Open <strong>Settings</strong> on your iPhone → tap your name at the top → tap <strong>iCloud</strong> → confirm that iCloud Drive is enabled.</li>
+    <li>Open <strong>Settings → [Your Name] → iCloud</strong> and check that Spichr is listed and toggled on.</li>
+    <li>Ensure your device has an active internet connection.</li>
+    <li>In the Spichr app, go to <strong>Settings → Sync</strong> and tap <strong>Sync Now</strong> if available.</li>
+    <li>If the issue persists, try signing out of iCloud on your device and signing back in.</li>
+  </ol>
+
+  <h3>Data isn't appearing on a second device</h3>
+  <ul>
+    <li>Both devices must be signed in to the same Apple ID.</li>
+    <li>Allow a few minutes for initial sync — CloudKit sync is not always instantaneous.</li>
+    <li>Ensure both devices have an active internet connection at the time of sync.</li>
+  </ul>
+
+  <h3>Sync shows an error message</h3>
+  <p>This is typically a temporary iCloud service issue. Check <a href="https://www.apple.com/support/systemstatus/" target="_blank" rel="noopener">Apple's System Status page</a> to confirm CloudKit is operational. Wait a few minutes and try again.</p>
+
+  <hr>
+
+  <h2>Notification Issues</h2>
+
+  <h3>I'm not receiving expiry notifications</h3>
+  <ol>
+    <li>Go to <strong>Settings → Notifications → Spichr</strong> and confirm notifications are enabled.</li>
+    <li>Check that <strong>Do Not Disturb</strong> or <strong>Focus</strong> modes are not blocking Spichr notifications.</li>
+    <li>In the Spichr app, open <strong>Settings → Notifications</strong> and verify your notification preferences.</li>
+    <li>Confirm that items have expiry dates set — notifications are only triggered for items with valid dates.</li>
+  </ol>
+
+  <h3>I'm receiving too many notifications</h3>
+  <p>Go to <strong>Settings → Notifications</strong> inside the app to adjust how far in advance you receive reminders, or disable notifications for specific categories.</p>
+
+  <hr>
+
+  <h2>Widget Issues</h2>
+
+  <h3>The Home Screen widget isn't showing</h3>
+  <ol>
+    <li>Remove the widget and re-add it from the widget gallery.</li>
+    <li>Open Spichr at least once to allow the widget to refresh its data.</li>
+    <li>If the widget shows stale data, tap it to open the app and allow a full refresh.</li>
+  </ol>
+
+  <h3>The widget shows "No data"</h3>
+  <p>This typically means the widget has not yet synced with the app's data. Open the app once and return to the Home Screen. If using iCloud sync, ensure the app has had an opportunity to sync before checking the widget.</p>
+
+  <hr>
+
+  <h2>Backup &amp; Restore</h2>
+
+  <h3>How do I export my data?</h3>
+  <p>Open <strong>Settings → Export Data</strong> in the app to generate a JSON file containing all your pantry data. You can save this to Files, send via AirDrop, or store it elsewhere.</p>
+
+  <h3>How do I restore from a JSON backup?</h3>
+  <p>Open <strong>Settings → Import Data</strong> and select your previously exported JSON file. The import will merge with or replace your existing data, depending on the option you select.</p>
+
+  <h3>I accidentally deleted an item</h3>
+  <p>Check the <strong>Activity Log</strong> (accessible from the main menu) — recently deleted items may still be visible there depending on your log retention settings.</p>
+
+  <hr>
+
+  <h2>Data &amp; Privacy</h2>
+
+  <h3>How do I delete all my data?</h3>
+  <p>Deleting the app from your device removes all locally stored data. If iCloud sync is enabled, go to <strong>Settings → [Your Name] → iCloud → Manage Account Storage</strong>, find Spichr, and delete its iCloud data.</p>
+
+  <h3>Can the developer see my data?</h3>
+  <p>No. Your data is stored on your device or in your personal iCloud container. CloudKit private databases are not accessible to the developer.</p>
+  <p>→ <a href="privacy.html">Read the full Privacy Policy</a></p>
+
+  <hr>
+
+  <h2>Feature Requests</h2>
+  <p>Feature requests are genuinely welcomed. If there's something you'd like to see in a future update — a workflow improvement, a missing feature, or an integration idea — please send it to <a href="mailto:sekidev@icloud.com">sekidev@icloud.com</a> with the subject line <strong>Feature Request: Spichr</strong>.</p>
+  <p>You can also leave feedback through the App Store review system. Reviews are read carefully.</p>
+
+  <hr>
+
+  <h2>Reporting a Bug</h2>
+  <p>If you encounter unexpected behavior, please include the following when reaching out:</p>
+  <ul>
+    <li>Your iOS version (Settings → General → About)</li>
+    <li>The Spichr version (visible in Settings → About)</li>
+    <li>A clear description of what happened and what you expected</li>
+    <li>Steps to reproduce the issue, if possible</li>
+    <li>Screenshots or screen recordings if they help illustrate the problem</li>
+  </ul>
+  <p>Send bug reports to <a href="mailto:sekidev@icloud.com">sekidev@icloud.com</a> with the subject line <strong>Bug Report: Spichr</strong>.</p>
+
+  <hr>
+
+  <h2>Contact</h2>
+  <p>
+    <strong>Email:</strong> <a href="mailto:sekidev@icloud.com">sekidev@icloud.com</a><br>
+    <strong>Developer:</strong> Sebastian Kerski<br>
+    <strong>GitHub:</strong> <a href="https://github.com/Sebastian-Kerski" target="_blank" rel="noopener">github.com/Sebastian-Kerski</a>
+  </p>
+  <p>Response time is typically within 2–3 business days.</p>
+
+  <p style="margin-top:40px;font-size:13px;color:var(--text-tertiary)"><em>Last updated: May 2026</em></p>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <div class="footer-logo-icon">🥦</div>
+      <span class="footer-logo-name">Spichr</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="mailto:sekidev@icloud.com">Contact</a></li>
+      <li><a href="https://github.com/Sebastian-Kerski" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 Sebastian Kerski. All rights reserved.</p>
+    <p class="footer-copy">Spichr is an independent iOS app not affiliated with Apple Inc.</p>
+  </div>
+</footer>
+
+</body>
+</html>
