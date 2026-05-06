@@ -157,7 +157,7 @@ struct SettingsView: View {
                             .foregroundStyle(.secondary)
                     }
                     
-                    Link(destination: URL(string: "https://sites.google.com/view/spichrprivacypolicy/startseite")!) {
+                    Link(destination: URL(string: "https://sebastian-kerski.github.io/Spichr/privacy.html")!) {
                         HStack {
                             Label {
                                 Text("privacy_policy")
@@ -170,7 +170,7 @@ struct SettingsView: View {
                         }
                     }
                     
-                    Link(destination: URL(string: "https://sites.google.com/view/spichr/startseite")!) {
+                    Link(destination: URL(string: "https://sebastian-kerski.github.io/Spichr/support.html")!) {
                         HStack {
                             Label {
                                 Text("help_support")
@@ -183,7 +183,7 @@ struct SettingsView: View {
                         }
                     }
                     
-                    Link(destination: URL(string: "mailto:spichr.contact@gmail.com")!) {
+                    Link(destination: URL(string: "mailto:sekidev@icloud.com")!) {
                         HStack {
                             Label {
                                 Text("contact")
