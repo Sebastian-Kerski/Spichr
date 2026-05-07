@@ -1,0 +1,378 @@
+/* Localizable.strings (English) — Spichr */
+
+// MARK: - General
+"unnamed_item" = "Unnamed Item";
+"no_location" = "No Location";
+"no_store" = "No Store";
+"search_items" = "Search items…";
+"unknown" = "Unknown";
+"ok" = "OK";
+"error" = "Error";
+"error_unknown" = "Unknown error";
+"loading" = "Loading";
+"please_wait" = "Please wait…";
+
+// MARK: - Tabs
+"tab_stock" = "Stock";
+"tab_shopping" = "Shopping";
+"tab_settings" = "Settings";
+
+// MARK: - Views / Titles
+"view_stock" = "Stock";
+"shopping_list" = "Shopping List";
+"tip_jar" = "Tip Jar";
+"scan_result_title" = "Scan Result";
+"filter_title" = "Filter";
+"location_section" = "Location";
+"advanced_section" = "Advanced";
+
+// MARK: - Actions
+"action_add_item" = "Add Item";
+"action_add" = "Add";
+"action_save" = "Save";
+"action_cancel" = "Cancel";
+"action_delete" = "Delete";
+"action_done" = "Done";
+"action_close" = "Close";
+"action_clear" = "Clear";
+"action_clear_list" = "Clear List";
+"action_scan" = "Scan";
+"action_filter" = "Filter";
+"action_more" = "More";
+"action_sort_by" = "Sort By";
+"action_show_expired" = "Show Expired";
+"action_delete_expired_items" = "Delete Expired Items";
+"action_move_all_to_stock" = "Move All to Stock";
+"action_quick_add" = "Quick Add";
+"action_add_detailed_item" = "Add Detailed Item";
+"action_to_shopping" = "To Shopping List";
+"action_add_to_stock" = "Add to Stock";
+"action_mark_opened" = "Mark as Opened";
+"action_scan_barcode" = "Scan Barcode";
+"action_add_manually" = "Add Manually";
+
+// MARK: - Form Fields
+"field_item_name" = "Item Name";
+"field_name" = "Name";
+"field_quantity_optional" = "Quantity (optional)";
+"field_store_optional" = "Store (optional)";
+"field_location" = "Location";
+"field_days" = "Days";
+"field_barcode" = "Barcode";
+
+// MARK: - Add / Edit Item
+"basic_information" = "Basic Information";
+"in_stock_toggle" = "In Stock";
+"in_stock_toggle_hint" = "Toggle 'In Stock' to add directly to your inventory";
+"location_and_store" = "Location & Store";
+"has_expiration_date" = "Has Expiration Date";
+"already_opened" = "Already Opened";
+"shelf_life_after_opening" = "Shelf Life After Opening";
+"dates" = "Dates";
+"expiration_calculation_hint" = "If opened, the expiration date is calculated from the opening date plus shelf life";
+
+// MARK: - Expiration Status
+"no_expiration_date" = "No expiration date";
+"expired_yesterday" = "Expired yesterday";
+"expired_days_ago" = "Expired %d days ago";
+"expires_today" = "Expires today!";
+"expires_tomorrow" = "Expires tomorrow";
+"expires_in_days" = "Expires in %d days";
+
+// MARK: - Expiration Groups
+"group_expired" = "Expired";
+"group_critical" = "Critical (1-2 days)";
+"group_warning" = "Warning (3-7 days)";
+"group_ok" = "Good";
+"group_approaching" = "Approaching (8-30 days)";
+"group_fresh" = "Fresh (>30 days)";
+"group_no_date" = "No Date";
+
+// MARK: - Sorting
+"sort_expiration" = "Expiration Date";
+"sort_name" = "Name";
+"sort_location" = "Location";
+"sort_date_added" = "Date Added";
+
+// MARK: - Locations
+"location_fridge" = "Refrigerator";
+"location_freezer" = "Freezer";
+"location_pantry" = "Pantry";
+"location_counter" = "Counter";
+"location_basement" = "Basement";
+"all_locations" = "All Locations";
+
+// MARK: - Status Badges
+"status_expired" = "Expired";
+"status_critical_1_2_days" = "Critical (1-2 days)";
+"status_warning_3_7_days" = "Warning (3-7 days)";
+
+// MARK: - Empty States
+"empty_stock_title" = "No Items in Stock";
+"empty_stock_message" = "Add your first item to get started";
+"empty_shopping_title" = "Shopping List Empty";
+"empty_shopping_message" = "Add items you need to buy";
+"no_results" = "No Results";
+"try_different_search" = "Try a different search term";
+
+// MARK: - Shopping List
+"show_as_list" = "Show as List";
+"group_by_store" = "Group by Store";
+
+// MARK: - Opened Items
+"opened_relative" = "Opened %@";
+
+// MARK: - Scan Result
+"product_found" = "Product Found";
+"add_expiration_date" = "Add Expiration Date";
+"expires_label" = "Expires on";
+"scanned_on" = "Scanned on";
+"at_time" = "at";
+"product_info_unavailable" = "Product information not available. You can still add the item.";
+
+// MARK: - Barcode Scanner
+"align_barcode" = "Align barcode within frame";
+"position_barcode" = "Position the barcode within the frame";
+"scanned_code" = "Scanned: %@";
+"error_scanner" = "Scanner Error";
+
+// MARK: - Validation Errors
+"error_name_required" = "Name is required";
+"error_opened_future" = "Opened date cannot be in the future";
+"error_shelf_life_negative" = "Shelf life cannot be negative";
+
+// MARK: - Camera / Barcode Errors
+"error_camera_denied" = "Camera access denied. Please enable in Settings.";
+"error_no_camera" = "No camera available on this device.";
+"error_camera_setup" = "Camera setup failed. Please try again.";
+"error_invalid_barcode" = "Invalid barcode format.";
+"error_network" = "Network error. Please check your connection.";
+"error_product_not_found" = "Product not found in our database.";
+
+// MARK: - iCloud
+"icloud" = "iCloud";
+"account_status" = "Account Status";
+"sync_enabled" = "Sync Enabled";
+"icloud_connected" = "Connected";
+"icloud_not_available" = "Not Available";
+"icloud_no_account" = "No Account";
+"icloud_restricted" = "Restricted";
+"icloud_checking" = "Checking…";
+"icloud_error" = "Error";
+"error_icloud_unavailable" = "iCloud account unavailable";
+"error_share_not_found" = "Share not found";
+"error_accept_share_failed" = "Failed to accept share: %@";
+"error_share_url" = "Could not generate share link";
+
+// MARK: - Household Sharing
+"share_household" = "Household Sharing";
+"share_household_button" = "Share Household";
+"manage_household" = "Manage Household";
+"share_with_family" = "Share with family";
+"household_sharing_description" = "Share your entire inventory with family members. Everyone can add, edit and manage items together.";
+"icloud_not_signed_in" = "Please sign in to iCloud to share your household.";
+"icloud_connecting" = "Connecting to iCloud…";
+"household_is_shared" = "Household is shared";
+"household_is_private" = "Household is private";
+"household_shared_desc" = "All items in your inventory are visible to household members. They can add, edit and delete items.";
+"household_private_desc" = "Share with family members to manage your food inventory together. Perfect for households, flatmates and couples!";
+"sharing_section" = "Sharing";
+"invite_more_people" = "Invite More People";
+"stop_sharing" = "Stop Sharing";
+"members" = "Members";
+"owner" = "Owner";
+"household_member_count" = "%d members";
+
+// MARK: - Notifications
+"notifications" = "Notifications";
+"enable_notifications" = "Enable Notifications";
+"daily_summary" = "Daily Summary";
+"summary_time" = "Summary Time";
+"expiring_30_days" = "Expiring in 30 Days";
+"expiring_7_days" = "Expiring in 7 Days";
+"expiring_tomorrow" = "Expiring Tomorrow";
+"expiring_today" = "Expiring Today";
+"opened_items" = "Opened Items";
+"open_settings" = "Open Settings";
+"notification_daily_summary_title" = "Your Inventory";
+"notification_daily_summary_body" = "You have %d items expiring soon";
+"notification_daily_summary_all_good" = "All items are fresh!";
+"notification_expiring_title" = "Item expiring soon";
+"notification_expiring_30_days" = "%@ expires in 30 days";
+"notification_expiring_7_days" = "%@ expires in 7 days";
+"notification_expiring_tomorrow" = "%@ expires tomorrow!";
+"notification_expiring_today_title" = "Item expires today!";
+"notification_expiring_today" = "%@ expires today";
+"notification_opened_item_title" = "Opened item expiring";
+"notification_opened_item_body" = "%@ was opened and expires soon";
+"notification_action_view" = "View";
+"notification_action_delete" = "Delete";
+
+// MARK: - Settings
+"settings" = "Settings";
+"statistics" = "Statistics";
+"total_items" = "Total Items";
+"stock_items" = "Stock Items";
+"shopping_items" = "Shopping Items";
+"expiring_soon" = "Expiring Soon";
+"data_management" = "Data Management";
+"export_data" = "Export Data";
+"delete_all_data" = "Delete All Data";
+"delete_confirmation" = "Delete All Data?";
+"delete_warning" = "This will permanently delete all items. This action cannot be undone.";
+"about" = "About";
+"version" = "Version";
+"build" = "Build";
+"privacy_policy" = "Privacy Policy";
+"help_support" = "Help & Support";
+"contact" = "Contact";
+"github" = "GitHub";
+"support" = "Support";
+
+// MARK: - Tip Jar / Support
+"support_spichr" = "Support Spichr";
+"buy_coffee" = "Buy me a coffee ☕";
+"support_developer" = "Support Developer";
+"support_developer_title" = "Support the Developer";
+"spichr_free_message" = "Spichr is completely free with no ads. Your support helps keep the app maintained and improving!";
+"tip_small_title" = "Small Tip";
+"tip_small_desc" = "Buy me a coffee! ☕";
+"tip_medium_title" = "Medium Tip";
+"tip_medium_desc" = "Support the development! 🙏";
+"tip_large_title" = "Large Tip";
+"tip_large_desc" = "You're awesome! Thank you! 🎉";
+"tip_jar_thank_you" = "You're Welcome!";
+"tip_jar_thank_you_title" = "Thank You! 🎉";
+"cloudkit_reset_complete" = "CloudKit reset complete. Please restart the app.";
+
+// MARK: - Missing: Form actions
+"add" = "Add";
+"save" = "Save";
+"add_item" = "Add Item";
+"edit_item" = "Edit Item";
+
+// MARK: - Missing: Tip Jar
+"tip_jar_message" = "Spichr is completely free. If you enjoy the app, consider leaving a tip — it keeps the app alive and improving!";
+"contribution_message" = "Every contribution, big or small, helps keep Spichr free and ad-free.";
+"thank_you_support" = "Thank you for your support! ❤️";
+"support_means_world" = "Your support means the world and helps me keep building great apps for you!";
+
+// MARK: - Welcome Screen
+"welcome_title" = "Welcome to Spichr";
+"welcome_subtitle" = "Your smart food inventory";
+"welcome_feature_track_title" = "Track Expiry Dates";
+"welcome_feature_track_desc" = "Always know what's in your fridge and when it expires";
+"welcome_feature_notify_title" = "Smart Notifications";
+"welcome_feature_notify_desc" = "Get notified before food expires so nothing goes to waste";
+"welcome_feature_share_title" = "Family Sharing";
+"welcome_feature_share_desc" = "Share your pantry with family — everyone stays in sync";
+"welcome_feature_scan_title" = "Barcode Scanner";
+"welcome_feature_scan_desc" = "Add items instantly by scanning the barcode";
+"welcome_enable_notifications" = "Enable Notifications";
+"welcome_get_started" = "Get Started";
+"welcome_maybe_later" = "Maybe Later";
+
+// MARK: - Categories
+"category" = "Category";
+"category_none" = "None";
+"category_dairy" = "Dairy";
+"category_meat" = "Meat";
+"category_vegetables" = "Vegetables";
+"category_fruits" = "Fruits";
+"category_beverages" = "Beverages";
+"category_canned" = "Canned Goods";
+"category_eggs" = "Eggs";
+"category_grains" = "Grains";
+"category_bakery" = "Bakery";
+"category_sweets" = "Sweets";
+"category_condiments" = "Condiments";
+"category_frozen" = "Frozen";
+"category_medicine" = "Medicine";
+"category_other" = "Other";
+
+// MARK: - Shopping Mode
+"shopping_mode_start" = "Shopping Mode";
+"shopping_mode_exit" = "Done Shopping";
+"shopping_mode_active" = "Shopping 🛒";
+
+// MARK: - Stock Actions
+"action_consumed" = "Consumed";
+
+// MARK: - Insights
+"insights_title" = "Insights";
+"insights_status_breakdown" = "By Status";
+"insights_expiring_14_days" = "Expiring in 14 Days";
+"insights_by_location" = "By Location";
+"insights_by_category" = "By Category";
+"insights_days_remaining" = "Days remaining";
+
+// MARK: - Toolbar / Menu (short keys used directly in views)
+"scan_barcode" = "Scan Barcode";
+"add_manually" = "Add Manually";
+
+// MARK: - Filter
+"filter_by_category" = "Category";
+"filter_all_categories" = "All Categories";
+"filter_expiry_range" = "Expiry Range";
+"filter_expiry_all" = "Any Date";
+
+// MARK: - Shopping List Export
+"export_shopping_list" = "Share Shopping List";
+"shopping_list_export_title" = "Shopping List — Spichr";
+
+// MARK: - Camera permission
+"camera_permission_denied_title" = "Camera Access Required";
+"camera_permission_denied_message" = "Please enable camera access in Settings so Spichr can scan barcodes.";
+
+// MARK: - Offline
+"offline_banner" = "Offline — changes will sync when connected";
+
+// MARK: - Data Import / Export
+"import_data" = "Import Backup";
+"import_result_title" = "Import";
+"import_success" = "Successfully imported %d items.";
+"import_failed" = "Import failed. Please check the file format.";
+
+// MARK: - Activity Log
+"activity_log_title" = "Activity Log";
+"activity_log_subtitle" = "Who added or changed what";
+"activity_empty_title" = "No Activity Yet";
+"activity_empty_desc" = "Activity will appear here once items are added or modified.";
+"activity_added" = "Added";
+"activity_modified" = "Modified";
+"activity_deleted" = "Removed";
+"activity_me" = "Me";
+"activity_unknown_user" = "Household member";
+"activity_filter_title" = "Filter";
+"activity_filter_date" = "Date Range";
+"activity_filter_from" = "From";
+"activity_filter_to" = "To";
+"activity_filter_user" = "User";
+"activity_filter_all_users" = "All Users";
+"section_activity" = "Activity";
+
+// MARK: - Recipe Suggestions
+"recipes_title" = "Recipe Suggestions";
+"recipes_none_title" = "No Suggestions";
+"recipes_none_desc" = "Add items to your stock and Spichr will suggest recipes.";
+"recipes_ingredients_label" = "ingredients matched";
+"recipes_have_label" = "You have:";
+"recipes_missing_label" = "You need:";
+"recipes_banner_title" = "Recipe Suggestions";
+"recipes_banner_subtitle" = "Use expiring items before they go bad";
+"recipes_language_notice" = "Recipe suggestions are currently only available in English.";
+
+// MARK: - Pro
+"pro_title" = "Spichr Pro";
+"pro_subtitle" = "Unlock the full Spichr experience";
+"pro_nav_title" = "Upgrade";
+"pro_buy_button" = "Unlock Pro — %@";
+"pro_restore" = "Restore Purchases";
+"pro_feature_recipes_title" = "Recipe Suggestions";
+"pro_feature_recipes_desc" = "Get recipe ideas based on items about to expire.";
+"pro_feature_activity_title" = "Activity Log";
+"pro_feature_activity_desc" = "See who added or changed items in your household.";
+
+// MARK: - Siri
+"siri_nothing_expiring" = "Nothing is expiring in the next 3 days in Spichr.";
+"siri_expiring_list" = "Expiring soon in Spichr: %@.";
